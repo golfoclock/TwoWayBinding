@@ -1,0 +1,15 @@
+<div>
+	<label> Full Name:</label>
+	<input type="text" [(ngModel)]="name">
+	<h2 [hidden]="!name">Hello {{name}}!</h2>
+	<button (click)="name=''">Reset</button>
+</div>
+
+<div *ngIf="name.toLowerCase()=='colleen'">
+	<h3>Ah! We've been waiting for you {{tom}}! </h3>
+	>
+	<p>Here's the map you've been looking for</p>
+	<p> <img [src]="treasureMap"></p>
+	</div>
+
+<div *ngFor="let stream"></div>	

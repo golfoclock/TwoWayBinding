@@ -1,0 +1,13 @@
+.img {
+	width: 150px;
+	height:150px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: Helvetica;
+	letter-spacing: 3px;
+}
+button {
+	background-color: #42C28D;
+}
